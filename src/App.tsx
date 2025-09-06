@@ -7,7 +7,6 @@ import { ThemeProvider } from "@/components/theme-provider";
 import { AuthProvider } from "@/contexts/AuthContext";
 import { ProtectedRoute } from "@/components/ProtectedRoute";
 import { ChatbaseWidget } from "@/components/ChatbaseWidget";
-import { ChatbotSettings } from "@/components/ChatbotSettings";
 import { LocalChatbot } from "@/components/LocalChatbot";
 import Index from "./pages/Index";
 import Login from "./pages/Login";
@@ -31,7 +30,6 @@ const App = () => (
           <Sonner />
           <LocalChatbot />
           <ChatbaseWidget />
-          <ChatbotSettings />
           <BrowserRouter>
             <Routes>
               <Route path="/login" element={<Login />} />
