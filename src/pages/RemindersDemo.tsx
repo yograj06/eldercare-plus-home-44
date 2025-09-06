@@ -48,7 +48,7 @@ export default function RemindersDemo() {
               <div>
                 <h1 className="text-2xl font-bold flex items-center">
                   <Pill className="w-6 h-6 mr-2 text-primary" />
-                  Medicine Reminders Demo
+                  Medicine Reminders
                 </h1>
                 <p className="text-muted-foreground">Interactive medication tracking system</p>
               </div>
