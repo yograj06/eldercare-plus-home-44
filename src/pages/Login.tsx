@@ -113,10 +113,6 @@ const Login = () => {
                 {isLoading ? 'Signing In...' : 'Sign In'}
               </Button>
             </form>
-
-            <div className="text-center text-sm text-muted-foreground">
-              Demo: Use any email and password (6+ characters)
-            </div>
           </div>
         </Card>
       </div>
